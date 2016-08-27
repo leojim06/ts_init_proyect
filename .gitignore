@@ -1,3 +1,7 @@
+# Own code
+dist
+typings
+
 # Logs
 logs
 *.log

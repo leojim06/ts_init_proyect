@@ -1,0 +1,28 @@
+{
+  "name": "ts_mea2n",
+  "version": "1.0.0",
+  "description": "Proyecto inicial para establecer la estructura de código para ts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MEA2N",
+    "typescript"
+  ],
+  "author": "leojim06",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.5.10",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-typescript": "^2.13.6"
+  }
+}

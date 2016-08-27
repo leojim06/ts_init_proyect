@@ -1,0 +1,16 @@
+{
+  "name": "ts_mea2n",
+  "dependencies": {
+    "mime": "registry:npm/mime#1.3.0+20160723033700",
+    "mongoose": "registry:npm/mongoose#4.3.5+20160628072220"
+  },
+  "globalDependencies": {
+    "body-parser": "registry:dt/body-parser#0.0.0+20160619023215",
+    "express": "registry:dt/express#4.0.0+20160708185218",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20160819131900",
+    "method-override": "registry:dt/method-override#0.0.0+20160317120654",
+    "morgan": "registry:dt/morgan#1.7.0+20160524142355",
+    "node": "registry:dt/node#6.0.0+20160823142437",
+    "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
+  }
+}
