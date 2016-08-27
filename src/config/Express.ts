@@ -3,6 +3,8 @@ import * as express from 'express'
 import * as bodyParser from 'body-parser'
 import * as morgan from 'morgan';
 
+import { Routes } from './../app/routes';
+
 export class App {
     private _app: express.Express;
 
@@ -15,6 +17,7 @@ export class App {
 
     private setRoutes(): void {
         this._app.get('/', this._RenderHelloWorld);
+        this._app.use(new Routes().routes);
     }
 
     public startServer(port: number): void {
