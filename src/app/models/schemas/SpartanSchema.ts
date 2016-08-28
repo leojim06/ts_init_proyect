@@ -9,11 +9,11 @@ class SpartanSchema {
         let schema = mongoose.Schema({
             name: {type: String, required: true},
             folk: {type: String, required: true},
-            amoutPeopleKilled: {type: Number, required: true}
+            amountPeopleKilled: {type: Number, required: true}
         });
         return schema; 
     }
 }
 
-const schema = mongooseConnetion.model<ISpartanModel>('Spartans', SpartanSchema.schema);
-export = schema;
+const Spartanes = mongooseConnetion.model<ISpartanModel>('Spartanes', SpartanSchema.schema);
+export = Spartanes;

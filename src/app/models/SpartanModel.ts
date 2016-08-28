@@ -15,7 +15,7 @@ export class SpartanModel {
         return this._spartanModel.folk;
     }
 
-    public get amoutPeopleKilled() : number {
+    public get amountPeopleKilled() : number {
         return this._spartanModel.amountPeopleKilled;
     }
 }

@@ -10,7 +10,6 @@ export class App {
 
     constructor() {
         this._app = express();
-
         this.configApp();
         this.setRoutes();
     }
