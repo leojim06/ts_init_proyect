@@ -4,5 +4,3 @@ export interface IReadController {
     getAll: express.RequestHandler;
     findById: express.RequestHandler;
 }
-
-// export = ReadController;

@@ -1,4 +1,4 @@
-import { Read } from './Read';
-import { Write } from './Write';
+import { IReadBusiness } from './Read';
+import { IWriteBusiness } from './Write';
 
-export interface IBaseBusiness<T> extends Read<T>, Write<T> { }
+export interface IBaseBusiness<T> extends IReadBusiness<T>, IWriteBusiness<T> { }

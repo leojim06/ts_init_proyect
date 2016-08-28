@@ -5,5 +5,3 @@ export interface IHeroModel extends mongoose.Document {
     amountPeopleSaved: number;
     name: string;
 }
-
-// export = HeroModel;

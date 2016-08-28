@@ -5,4 +5,3 @@ export interface IWriteController {
     update: express.RequestHandler;
     delete: express.RequestHandler;
 }
-// export = WriteController;

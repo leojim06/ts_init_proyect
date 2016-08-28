@@ -1,6 +1,5 @@
 /// <reference path="../../typings/index.d.ts" />
 import * as Mongoose from 'mongoose';
-// import Mongoose = require('mongoose');
 import { Config } from '../config/Config'
 
 export class DataAccess {
@@ -27,4 +26,3 @@ export class DataAccess {
 }
 
 DataAccess.connect();
-// export = DataAccess;

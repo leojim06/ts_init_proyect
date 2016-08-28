@@ -1,27 +1,21 @@
-// import IHeroModel = require('./interfaces/HeroModel');
 import { IHeroModel } from './interfaces/HeroModel';
 
-class HeroModel {
+export class HeroModel {
     private _heroModel: IHeroModel;
 
     constructor(heroModel: IHeroModel) {
         this._heroModel = heroModel;
     }
 
-    
     public get name() : string {
         return this._heroModel.name;
     }
 
-    
     public get power() : string {
         return this._heroModel.power;
     }
 
-    
-    public get amoutPeopleSaved() : number {
+    public get amountPeopleSaved() : number {
         return this._heroModel.amountPeopleSaved;
     }
 }
-
-export = HeroModel;
